@@ -20,7 +20,7 @@ const About = () => {
       </p>
       <img
         className="houseImg"
-        src="src\img\praline-home.png"
+        src="/xocolate-website/img/praline-home.png"
         alt="home-praline"
       />
     </>

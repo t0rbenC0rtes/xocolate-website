@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 const Header = () => {
   return (
     <header>
-      <img src="src\img\headerImg.png" alt="headerImage" />
+      <img src="/xocolate-website/img/headerImg.png" alt="headerImage" />
       <Navbar />
     </header>
   );
