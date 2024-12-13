@@ -1,0 +1,9 @@
+.nav-ul {
+    display: flex;
+    justify-self: center;
+    list-style-type: none;
+    gap: 1.25em;
+    .nav-label {
+        @include nav-font;
+    }
+}

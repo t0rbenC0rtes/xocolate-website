@@ -1,0 +1,16 @@
+.heroLetter {
+    @include hero-font;
+    font-size: 8em;
+    margin: 20px auto 0 auto;
+}
+
+.heroTitle {
+    @include hero-font;
+    font-size: 1.5em;
+    margin-bottom: 50px;
+}
+
+.heroImg {
+    width: 360px;
+    height: 240px;
+}

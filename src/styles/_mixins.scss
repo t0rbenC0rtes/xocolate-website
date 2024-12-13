@@ -1,0 +1,20 @@
+@mixin nav-font {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: .75em;
+  line-height: 10px;
+  text-align: center;
+}
+
+@mixin hero-font {
+    font-family: "Montserrat";
+    font-weight: 200;
+}
+
+@mixin p-font {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 1em;
+    text-align: left;
+}

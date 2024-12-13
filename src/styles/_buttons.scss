@@ -1,0 +1,35 @@
+.praline-btn-yellow {
+  width: 12px;
+  height: 12px;
+  background: radial-gradient(circle, #4a2a1e 0%, #2c1a11 70%, #1b0e07 100%);
+  border-radius: 50%;
+  box-shadow: inset -10px -10px 20px rgba(0, 0, 0, 0.3),
+    inset 10px 10px 20px rgba(255, 255, 255, 0.2); /* Effet de profondeur */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.praline-btn-yellow::before {
+  content: "";
+  width: 50%;
+  height: 50%;
+  background: radial-gradient(circle, #ffde59 0%, #d7b300 100%);
+  border-radius: 50%;
+  box-shadow: inset -3px -3px 6px rgba(0, 0, 0, 0.3),
+    3px 3px 6px rgba(255, 255, 255, 0.2); /* Effet de lumière sur le cercle jaune */
+}
+
+.praline-btn-yellow {
+  cursor: pointer; /* Changer le curseur en main */
+  transition: all 0.1s ease-in-out; /* Animation fluide */
+}
+
+.praline-btn-yellow:active {
+  box-shadow: inset -5px -5px 10px rgba(0, 0, 0, 0.5),
+    /* Ombres internes plus marquées */ inset 5px 5px 10px
+      rgba(255, 255, 255, 0.1),
+    0 4px 8px rgba(0, 0, 0, 0.6); /* Réduction de l'ombre portée */
+  transform: scale(0.95); /* Légère compression pour un effet de clic */
+}
