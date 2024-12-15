@@ -3,9 +3,9 @@
 .footer-container {
   place-items: center;
   position: relative;
-  span a{
+  span a {
     text-decoration: none;
-    color: variables.$yellow;
+    color: variables.$choco;
   }
 }
 
@@ -29,7 +29,7 @@
 }
 
 .toggle-footer-btn {
-  margin-top: 6.25em;
+  margin-top: 3em;
   margin-bottom: 3em;
   width: 40px;
   height: 44px;

@@ -1,0 +1,124 @@
+{
+  "pralines": [
+    {
+      "name": "Dark Chocolate Bliss",
+      "type": "Dark Chocolate",
+      "picture": "./img/pralineProduct.jpg",
+      "withAlcohol": false
+    },
+    {
+      "name": "Rum Truffle",
+      "type": "Milk Chocolate",
+      "picture": "./img/pralineProduct.jpg",
+      "withAlcohol": true
+    },
+    {
+      "name": "Hazelnut Crunch",
+      "type": "White Chocolate",
+      "picture": "./img/pralineProduct.jpg",
+      "withAlcohol": false
+    },
+    {
+      "name": "Mint Delight",
+      "type": "Milk Chocolate",
+      "picture": "./img/pralineProduct.jpg",
+      "withAlcohol": false
+    },
+    {
+      "name": "Coffee Cream Dream",
+      "type": "Dark Chocolate",
+      "picture": "./img/pralineProduct.jpg",
+      "withAlcohol": true
+    },
+    {
+      "name": "Orange Zest",
+      "type": "White Chocolate",
+      "picture": "./img/pralineProduct.jpg",
+      "withAlcohol": false
+    },
+    {
+      "name": "Cherry Kiss",
+      "type": "Milk Chocolate",
+      "picture": "./img/pralineProduct.jpg",
+      "withAlcohol": true
+    },
+    {
+      "name": "Caramel Surprise",
+      "type": "Dark Chocolate",
+      "picture": "./img/pralineProduct.jpg",
+      "withAlcohol": false
+    },
+    {
+      "name": "Almond Joy",
+      "type": "White Chocolate",
+      "picture": "./img/pralineProduct.jpg",
+      "withAlcohol": true
+    },
+    {
+      "name": "Peanut Butter Pearl",
+      "type": "Milk Chocolate",
+      "picture": "./img/pralineProduct.jpg",
+      "withAlcohol": false
+    },
+    {
+      "name": "White Chocolate Wonder",
+      "type": "White Chocolate",
+      "picture": "./img/pralineProduct.jpg",
+      "withAlcohol": false
+    },
+    {
+      "name": "Berry Burst",
+      "type": "Dark Chocolate",
+      "picture": "./img/pralineProduct.jpg",
+      "withAlcohol": true
+    },
+    {
+      "name": "Coconut Fantasy",
+      "type": "Milk Chocolate",
+      "picture": "./img/pralineProduct.jpg",
+      "withAlcohol": false
+    },
+    {
+      "name": "Espresso Shot",
+      "type": "Dark Chocolate",
+      "picture": "./img/pralineProduct.jpg",
+      "withAlcohol": true
+    },
+    {
+      "name": "Lemon Twist",
+      "type": "White Chocolate",
+      "picture": "./img/pralineProduct.jpg",
+      "withAlcohol": false
+    },
+    {
+      "name": "Vanilla Velvet",
+      "type": "Milk Chocolate",
+      "picture": "./img/pralineProduct.jpg",
+      "withAlcohol": true
+    },
+    {
+      "name": "Spicy Choco Heat",
+      "type": "Dark Chocolate",
+      "picture": "./img/pralineProduct.jpg",
+      "withAlcohol": false
+    },
+    {
+      "name": "Maple Syrup Sweet",
+      "type": "Milk Chocolate",
+      "picture": "./img/pralineProduct.jpg",
+      "withAlcohol": false
+    },
+    {
+      "name": "Pistachio Perfection",
+      "type": "White Chocolate",
+      "picture": "./img/pralineProduct.jpg",
+      "withAlcohol": true
+    },
+    {
+      "name": "Strawberry Sensation",
+      "type": "Dark Chocolate",
+      "picture": "./img/pralineProduct.jpg",
+      "withAlcohol": false
+    }
+  ]
+}

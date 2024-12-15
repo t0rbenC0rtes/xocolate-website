@@ -1,0 +1,27 @@
+@use "./variables";
+
+.praline-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h3 {
+    font-family: variables.$main-font;
+    font-size: 0.75em;
+  }
+  p {
+    font-size: 0.75em;
+  }
+  span {
+    color: variables.$choco;
+  }
+}
+
+.praline-image {
+  width: 150px;
+  border-radius: 12px;
+  margin: 3px;
+}
+
+.alcool {
+  color: variables.$choco;
+}

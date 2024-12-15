@@ -1,16 +1,16 @@
-@use './variables';
-@use './mixins';
-@use './base';
-@use './buttons';
-@use './navbar';
-@use './hero';
-@use './about';
-@use './contact';
-@use './footer';
-@use './pralines';
+@use "./variables";
+@use "./mixins";
+@use "./base";
+@use "./buttons";
+@use "./navbar";
+@use "./hero";
+@use "./about";
+@use "./contact";
+@use "./footer";
+@use "./pralines";
+@use "./pralineCard";
 
-
-body { 
+body {
   background-color: variables.$background-color;
   overflow-x: hidden;
 }

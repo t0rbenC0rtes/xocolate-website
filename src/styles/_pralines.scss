@@ -1,6 +1,12 @@
-@use './variables';
+@use "./variables";
 
 .homeBtn {
-    color: variables.$background-color;
-    padding-top: 1em;
+  color: variables.$background-color;
+  padding-top: 1em;
+}
+
+.praline-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
