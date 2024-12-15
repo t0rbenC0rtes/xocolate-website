@@ -1,19 +1,22 @@
-@import './variables';
-@import './mixins';
-@import './base';
-@import './buttons';
-@import './navbar';
-@import './hero';
-@import './about';
-@import './contact';
+@use './variables';
+@use './mixins';
+@use './base';
+@use './buttons';
+@use './navbar';
+@use './hero';
+@use './about';
+@use './contact';
+@use './footer';
+@use './pralines';
 
 
 body { 
-  background-color: $background-color;
+  background-color: variables.$background-color;
+  overflow-x: hidden;
 }
 
 .container {
-  max-width: 100%;
+  max-width: 100vw;
   display: flex;
   flex-direction: column;
   place-items: center;

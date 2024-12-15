@@ -1,5 +1,7 @@
+@use "./mixins";
+@use "./variables";
 .contact span {
-  @include p-font;
+  @include mixins.p-font;
   font-size: 0.75em;
 }
 
@@ -23,6 +25,6 @@
 }
 
 .contact-icon {
-  font-size: 2rem;
-  color: #fbc02d;
+  font-size: 1.2em;
+  color: variables.$yellow;
 }

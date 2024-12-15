@@ -1,0 +1,90 @@
+@use "./variables";
+
+.footer-container {
+  place-items: center;
+  position: relative;
+  span a{
+    text-decoration: none;
+    color: variables.$yellow;
+  }
+}
+
+.footer-content {
+  max-height: 0; /* Hidden by default */
+  opacity: 0;
+  transform: translateY(20px); /* Start below the view */
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-content.slide-in {
+  max-height: 200px; /* Adjust based on footer content height */
+  opacity: 1;
+  transform: translateY(0); /* Slide into view */
+}
+
+.footer-content.slide-out {
+  max-height: 0;
+  opacity: 0;
+  transform: translateY(20px); /* Slide out of view */
+}
+
+.toggle-footer-btn {
+  margin-top: 6.25em;
+  margin-bottom: 3em;
+  width: 40px;
+  height: 44px;
+  background: radial-gradient(
+    circle at 50% 30%,
+    #4a2a1e,
+    #2c1a11 70%,
+    #1b0e07 100%
+  );
+  border-radius: 50% 50% 40% 40%; /* Plus arrondi pour une forme haute */
+  position: relative;
+  box-shadow: inset -10px -10px 20px rgba(0, 0, 0, 0.3),
+    /* Ombres internes */ inset 10px 10px 20px rgba(255, 255, 255, 0.1),
+    0 8px 15px rgba(0, 0, 0, 0.5); /* Ombre portée pour la base */
+}
+
+/* Cercle jaune vu en perspective */
+.toggle-footer-btn::before {
+  content: "";
+  position: absolute;
+  top: -25%; /* Cercle plus haut pour un dôme plus étiré */
+  left: 50%;
+  transform: translate(-50%, 0) scale(0.4, 0.2); /* Perspective aplatie */
+  width: 40px;
+  height: 40px;
+  background: radial-gradient(circle at 50% 50%, #ffde59, #d7b300 100%);
+  border-radius: 50%;
+  box-shadow: inset -2px -2px 4px rgba(0, 0, 0, 0.2),
+    2px 2px 4px rgba(255, 255, 255, 0.2);
+}
+
+/* Légères imperfections */
+.toggle-footer-btn::after {
+  content: "";
+  position: absolute;
+  top: 60%;
+  left: 75%;
+  width: 8px;
+  height: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  transform: rotate(30deg);
+  filter: blur(1px);
+}
+
+/* Ajout de styles pour l'animation au clic */
+.toggle-footer-btn {
+  cursor: pointer; /* Changer le curseur en main */
+  transition: all 0.2s ease-in-out; /* Animation fluide */
+}
+
+.toggle-footer-btn:active {
+  box-shadow: inset -5px -5px 10px rgba(0, 0, 0, 0.5),
+    /* Ombres internes plus marquées */ inset 5px 5px 10px
+      rgba(255, 255, 255, 0.1),
+    0 4px 8px rgba(0, 0, 0, 0.6); /* Réduction de l'ombre portée */
+  transform: scale(0.95); /* Légère compression pour un effet de clic */
+}
