@@ -6,6 +6,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Pralines from "./components/Pralines";
+import Admin from "./components/Admin";
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
         />
         {/* Pralines Page */}
         <Route path="/pralines" element={<Pralines />} />
+        <Route path="/admin" element={<Admin />} />
       </Routes>
     </Router>
   );

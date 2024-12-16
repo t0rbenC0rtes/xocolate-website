@@ -9,10 +9,14 @@
 @use "./footer";
 @use "./pralines";
 @use "./pralineCard";
+@use "./admin";
 
 body {
   background-color: variables.$background-color;
   overflow-x: hidden;
+  ::selection{
+    background-color: variables.$choco;
+  }
 }
 
 .container {

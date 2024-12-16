@@ -1,0 +1,19 @@
+@use "./variables";
+
+.admin {
+  font-family: variables.$main-font;
+}
+
+.adminInputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 60px;
+}
+
+.deleteContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

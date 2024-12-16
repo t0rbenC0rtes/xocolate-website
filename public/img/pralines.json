@@ -1,124 +1,137 @@
 {
   "pralines": [
     {
-      "name": "Dark Chocolate Bliss",
-      "type": "Dark Chocolate",
-      "picture": "./img/pralineProduct.jpg",
-      "withAlcohol": false
-    },
-    {
       "name": "Rum Truffle",
       "type": "Milk Chocolate",
       "picture": "./img/pralineProduct.jpg",
-      "withAlcohol": true
+      "withAlcohol": true,
+      "id": "3409"
     },
     {
       "name": "Hazelnut Crunch",
       "type": "White Chocolate",
       "picture": "./img/pralineProduct.jpg",
-      "withAlcohol": false
+      "withAlcohol": false,
+      "id": "4a65"
     },
     {
       "name": "Mint Delight",
       "type": "Milk Chocolate",
       "picture": "./img/pralineProduct.jpg",
-      "withAlcohol": false
+      "withAlcohol": false,
+      "id": "50f7"
     },
     {
       "name": "Coffee Cream Dream",
       "type": "Dark Chocolate",
       "picture": "./img/pralineProduct.jpg",
-      "withAlcohol": true
+      "withAlcohol": true,
+      "id": "1bac"
     },
     {
       "name": "Orange Zest",
       "type": "White Chocolate",
       "picture": "./img/pralineProduct.jpg",
-      "withAlcohol": false
+      "withAlcohol": false,
+      "id": "2037"
     },
     {
       "name": "Cherry Kiss",
       "type": "Milk Chocolate",
       "picture": "./img/pralineProduct.jpg",
-      "withAlcohol": true
+      "withAlcohol": true,
+      "id": "fa79"
     },
     {
       "name": "Caramel Surprise",
       "type": "Dark Chocolate",
       "picture": "./img/pralineProduct.jpg",
-      "withAlcohol": false
+      "withAlcohol": false,
+      "id": "a687"
     },
     {
       "name": "Almond Joy",
       "type": "White Chocolate",
       "picture": "./img/pralineProduct.jpg",
-      "withAlcohol": true
+      "withAlcohol": true,
+      "id": "0217"
     },
     {
       "name": "Peanut Butter Pearl",
       "type": "Milk Chocolate",
       "picture": "./img/pralineProduct.jpg",
-      "withAlcohol": false
+      "withAlcohol": false,
+      "id": "c0a2"
     },
     {
       "name": "White Chocolate Wonder",
       "type": "White Chocolate",
       "picture": "./img/pralineProduct.jpg",
-      "withAlcohol": false
+      "withAlcohol": false,
+      "id": "7d06"
     },
     {
       "name": "Berry Burst",
       "type": "Dark Chocolate",
       "picture": "./img/pralineProduct.jpg",
-      "withAlcohol": true
+      "withAlcohol": true,
+      "id": "da0b"
     },
     {
       "name": "Coconut Fantasy",
       "type": "Milk Chocolate",
       "picture": "./img/pralineProduct.jpg",
-      "withAlcohol": false
+      "withAlcohol": false,
+      "id": "0cee"
     },
     {
       "name": "Espresso Shot",
       "type": "Dark Chocolate",
       "picture": "./img/pralineProduct.jpg",
-      "withAlcohol": true
+      "withAlcohol": true,
+      "id": "b99e"
     },
     {
       "name": "Lemon Twist",
       "type": "White Chocolate",
       "picture": "./img/pralineProduct.jpg",
-      "withAlcohol": false
+      "withAlcohol": false,
+      "id": "49db"
     },
     {
       "name": "Vanilla Velvet",
       "type": "Milk Chocolate",
       "picture": "./img/pralineProduct.jpg",
-      "withAlcohol": true
+      "withAlcohol": true,
+      "id": "f4ca"
     },
     {
       "name": "Spicy Choco Heat",
       "type": "Dark Chocolate",
       "picture": "./img/pralineProduct.jpg",
-      "withAlcohol": false
+      "withAlcohol": false,
+      "id": "fb85"
     },
     {
       "name": "Maple Syrup Sweet",
       "type": "Milk Chocolate",
       "picture": "./img/pralineProduct.jpg",
-      "withAlcohol": false
+      "withAlcohol": false,
+      "id": "5024"
     },
     {
       "name": "Pistachio Perfection",
       "type": "White Chocolate",
       "picture": "./img/pralineProduct.jpg",
-      "withAlcohol": true
+      "withAlcohol": true,
+      "id": "9852"
     },
     {
       "name": "Strawberry Sensation",
       "type": "Dark Chocolate",
       "picture": "./img/pralineProduct.jpg",
-      "withAlcohol": false
+      "withAlcohol": false,
+      "id": "134a"
     }
   ]
 }
